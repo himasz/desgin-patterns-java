@@ -1,9 +1,9 @@
-package creational.factory.common.newyork;
+package creational.factory.model.newyork;
 
 import common.IIngredientFactory;
 import common.enums.DoughType;
 import common.pizza.SausagePizza;
-import creational.factory.common.NewYorkIngredientFactory;
+import creational.factory.model.NewYorkIngredientFactory;
 
 public class NewYorkSausagePizza extends SausagePizza {
 

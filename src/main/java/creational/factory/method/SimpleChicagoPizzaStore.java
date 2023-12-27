@@ -2,9 +2,9 @@ package creational.factory.method;
 
 import common.enums.PizzaType;
 import common.pizza.interfaces.IPizza;
-import creational.factory.common.chicago.ChicagoPizzaFactory;
+import creational.factory.model.chicago.ChicagoPizzaFactory;
 import creational.factory.method.base.SimplePizzaStoreBase;
-import creational.factory.common.IPizzaFactory;
+import creational.factory.model.IPizzaFactory;
 
 public class SimpleChicagoPizzaStore extends SimplePizzaStoreBase {
 

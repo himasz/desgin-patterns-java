@@ -1,8 +1,8 @@
-package creational.factory.common.california;
+package creational.factory.model.california;
 
 import common.enums.PizzaType;
 import common.pizza.interfaces.IPizza;
-import creational.factory.common.IPizzaFactory;
+import creational.factory.model.IPizzaFactory;
 
 public class CaliforniaPizzaFactory implements IPizzaFactory {
 

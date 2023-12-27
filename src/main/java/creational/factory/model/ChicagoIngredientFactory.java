@@ -1,4 +1,4 @@
-package creational.factory.common;
+package creational.factory.model;
 
 import common.BasicIngredientFactory;
 

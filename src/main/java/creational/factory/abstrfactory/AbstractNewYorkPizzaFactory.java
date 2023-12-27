@@ -3,11 +3,11 @@ package creational.factory.abstrfactory;
 import common.IIngredientFactory;
 import common.enums.PizzaType;
 import common.pizza.interfaces.IPizza;
-import creational.factory.common.IPizzaFactory;
-import creational.factory.common.NewYorkIngredientFactory;
-import creational.factory.common.newyork.NewYorkCheesePizza;
-import creational.factory.common.newyork.NewYorkPepperoniPizza;
-import creational.factory.common.newyork.NewYorkSausagePizza;
+import creational.factory.model.IPizzaFactory;
+import creational.factory.model.NewYorkIngredientFactory;
+import creational.factory.model.newyork.NewYorkCheesePizza;
+import creational.factory.model.newyork.NewYorkPepperoniPizza;
+import creational.factory.model.newyork.NewYorkSausagePizza;
 
 public class AbstractNewYorkPizzaFactory implements IPizzaFactory {
 

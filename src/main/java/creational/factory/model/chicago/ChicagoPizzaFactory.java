@@ -1,8 +1,8 @@
-package creational.factory.common.chicago;
+package creational.factory.model.chicago;
 
 import common.enums.PizzaType;
 import common.pizza.interfaces.IPizza;
-import creational.factory.common.IPizzaFactory;
+import creational.factory.model.IPizzaFactory;
 
 public class ChicagoPizzaFactory implements IPizzaFactory {
 

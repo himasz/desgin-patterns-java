@@ -1,9 +1,9 @@
-package creational.factory.common.california;
+package creational.factory.model.california;
 
 import common.IIngredientFactory;
 import common.enums.DoughType;
 import common.pizza.CheesePizza;
-import creational.factory.common.CaliforniaIngredientFactory;
+import creational.factory.model.CaliforniaIngredientFactory;
 
 public class CaliforniaCheesePizza extends CheesePizza {
 

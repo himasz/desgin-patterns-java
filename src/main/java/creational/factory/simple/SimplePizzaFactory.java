@@ -5,7 +5,7 @@ import common.pizza.CheesePizza;
 import common.pizza.interfaces.IPizza;
 import common.pizza.PepperoniPizza;
 import common.pizza.SausagePizza;
-import creational.factory.common.IPizzaFactory;
+import creational.factory.model.IPizzaFactory;
 
 public class SimplePizzaFactory implements IPizzaFactory {
     @Override
