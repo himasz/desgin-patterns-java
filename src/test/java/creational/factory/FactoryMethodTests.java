@@ -1,4 +1,4 @@
-package creational.factory.simple;
+package creational.factory;
 
 import common.enums.DoughType;
 import common.enums.PizzaType;

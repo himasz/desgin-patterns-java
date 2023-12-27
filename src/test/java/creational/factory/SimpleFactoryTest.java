@@ -1,10 +1,11 @@
-package creational.factory.simple;
+package creational.factory;
 
 import common.enums.PizzaType;
 import common.pizza.CheesePizza;
 import common.pizza.PepperoniPizza;
 import common.pizza.SausagePizza;
 import common.pizza.interfaces.IPizza;
+import creational.factory.simple.SimplePizzaFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
