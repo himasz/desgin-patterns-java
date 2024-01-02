@@ -83,8 +83,7 @@ complex.
 1. `Static Type of Builders:`
     - Builders are often statically typed to a specific product class. This means that if there are multiple subclasses
       or variations through inheritance, each subclass may need its own builder.
-2.
-3. `Limited Polymorphism:`
+2. `Limited Polymorphism:`
     - The builder pattern does not provide straightforward support for polymorphism. The director and client code need
       to be aware of the specific builder for the concrete class being constructed.
 
