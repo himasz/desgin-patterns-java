@@ -53,6 +53,7 @@ In the context of the Single Responsibility Principle (SRP), the idea is that a 
     - With a modular design based on single responsibilities, the system becomes more adaptable to changes. Adding new features or modifying existing ones is less likely to impact other parts of the system, resulting in greater flexibility.
 
 In the "before" example, the `Report` class handles both report generation and saving to a file. If changes are needed in the report generation logic or the way reports are saved, the class is more likely to undergo modifications. In the "after" example, responsibilities are separated, making the code more maintainable and adaptable. If you need to change how reports are saved, you modify the `ReportSaver` class, and the `Report` class remains focused on report generation. This separation of concerns is a key principle in creating maintainable and scalable software systems.
+
 2. `Open/Closed Principle (OCP):`
     - Software entities (e.g., classes, modules, functions) should be open for extension but closed for modification.
     - Example in Java:
